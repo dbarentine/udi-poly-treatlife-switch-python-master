@@ -1,0 +1,164 @@
+TreatLife Device Discovery
+
+Authentication [1.2.1]
+API Key  txejpdfda9iwmn5cg2es
+Token  txejpdfda9iwmn5cg2es1623447780358
+
+API Key  txejpdfda9iwmn5cg2es
+Token  txejpdfda9iwmn5cg2es8ed0c54ca6b95b3813c683fc66a144bb1623447780606
+
+API Key  txejpdfda9iwmn5cg2es
+Token  txejpdfda9iwmn5cg2es8ed0c54ca6b95b3813c683fc66a144bb1623447780820
+
+
+
+Device Listing
+
+
+
+Hello Here's are the Devices with INTERNET ACTIVE IP ADDRESSES 
+
+ [
+    {
+        "name": "Garage",
+        "id": "ebfd4f4263bb769d99zjkq",
+        "key": "ec0b2b581a246eab",
+        "ip": "73.116.163.37"
+    },
+    {
+        "name": "Switch Family Room Sconces",
+        "id": "017743508caab5f385a7",
+        "key": "7b8f2415ac96dfea",
+        "ip": "73.116.163.37"
+    },
+    {
+        "name": "Under Cabinets",
+        "id": "ebe097c0407da32084kvtr",
+        "key": "cb02297ceb692149",
+        "ip": "73.116.163.37"
+    },
+    {
+        "name": "Office Light",
+        "id": "ebfc16d57ed374932cjqfk",
+        "key": "805217605357161b",
+        "ip": "73.116.163.37"
+    },
+    {
+        "name": "Switch Office Outside Lights",
+        "id": "017743508caab5f0973e",
+        "key": "e779c96c964f71b2",
+        "ip": "73.116.163.37"
+    }
+]
+
+Polling TreatLife Switch Devices...
+
+
+EACH TREATLIFE SWITCH TO NODE WITH ADDNODE FROM HERE!!!
+Switch Family Room Sconces          017743508caab5f385a7     192.168.1.148    7b8f2415ac96dfea  3.3  
+
+EACH TREATLIFE SWITCH TO NODE WITH ADDNODE FROM HERE!!!
+Switch Office Outside Lights        017743508caab5f0973e     192.168.1.147    e779c96c964f71b2  3.3  
+
+Polling TreatLife Light Devices...
+
+
+EACH TREATLIFE LIGHT TO NODE WITH ADDNODE FROM HERE!!!
+Garage                              ebfd4f4263bb769d99zjkq   192.168.1.149    ec0b2b581a246eab  3.3  
+
+EACH TREATLIFE LIGHT TO NODE WITH ADDNODE FROM HERE!!!
+Under Cabinets                      ebe097c0407da32084kvtr   192.168.1.154    cb02297ceb692149  3.3  
+
+EACH TREATLIFE LIGHT TO NODE WITH ADDNODE FROM HERE!!!
+Office Light                        ebfc16d57ed374932cjqfk   192.168.1.150    805217605357161b  3.3  
+
+Hello Here's the JSON 
+ {
+    "timestamp": 1623447821.160479,
+    "devices": [
+        {
+            "name": "Garage",
+            "ip": "192.168.1.149",
+            "ver": "3.3",
+            "id": "ebfd4f4263bb769d99zjkq",
+            "key": "ec0b2b581a246eab",
+            "devId": {
+                "dps": {
+                    "20": false,
+                    "21": "white",
+                    "22": 109,
+                    "23": 0,
+                    "24": "010801b20362",
+                    "25": "000d0d0000000000000001a00000",
+                    "26": 0
+                }
+            }
+        },
+        {
+            "name": "Switch Family Room Sconces",
+            "ip": "192.168.1.148",
+            "ver": "3.3",
+            "id": "017743508caab5f385a7",
+            "key": "7b8f2415ac96dfea",
+            "devId": {
+                "devId": "017743508caab5f385a7",
+                "dps": {
+                    "1": false,
+                    "9": 0
+                }
+            }
+        },
+        {
+            "name": "Under Cabinets",
+            "ip": "192.168.1.154",
+            "ver": "3.3",
+            "id": "ebe097c0407da32084kvtr",
+            "key": "cb02297ceb692149",
+            "devId": {
+                "dps": {
+                    "20": true,
+                    "21": "white",
+                    "24": "00b2018503d0",
+                    "25": "d0646402000003e803e80000000064640200eb03e803e800000000646402011403e803e800000000646402012703e803e80000000064640200b303e803e800000000646402003d03d203e800000000",
+                    "26": 0
+                }
+            }
+        },
+        {
+            "name": "Office Light",
+            "ip": "192.168.1.150",
+            "ver": "3.3",
+            "id": "ebfc16d57ed374932cjqfk",
+            "key": "805217605357161b",
+            "devId": {
+                "dps": {
+                    "20": false,
+                    "21": "white",
+                    "22": 1000,
+                    "23": 1000,
+                    "24": "00b602fe01d6",
+                    "25": "020d0d00000000000000001903e8",
+                    "26": 0
+                }
+            }
+        },
+        {
+            "name": "Switch Office Outside Lights",
+            "ip": "192.168.1.147",
+            "ver": "3.3",
+            "id": "017743508caab5f0973e",
+            "key": "e779c96c964f71b2",
+            "devId": {
+                "devId": "017743508caab5f0973e",
+                "dps": {
+                    "1": true,
+                    "9": 0
+                }
+            }
+        }
+    ]
+}
+
+Saving device snapshot data to snapshot.json
+
+Done.

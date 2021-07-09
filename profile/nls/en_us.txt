@@ -1,0 +1,88 @@
+# controller
+ND-controller-NAME = Tuya Switch Controller
+ND-controller-ICON = Alarm
+CMD-ctl-QUERY"-NAME = Query
+CMD-ctl-DISCOVER-NAME = Re-Discover
+CMD-ctl-UPDATE_PROFILE-NAME = Update Profile
+CMD-ctl-REMOVE_NOTICES_ALL-NAME = Remove All Notices
+#CMD-ctl-WIZARD"-NAME = Query
+CMD-ctl-SET_DM-NAME = Set Logger Level
+ST-ctl-ST-NAME = NodeServer Online
+ST-ctl-GV1-NAME = Logger Level
+
+# mynodetype1
+ND-tuyaswitch1-NAME = Tuya Switch Node 1
+ND-tuyaswitch1-ICON = Electricity
+ST-swtnode1-ST-NAME = Node Status
+ST-swtnode1-GV2-NAME = Switch Status
+CMD-swtnode1-SWTON-NAME = Switch On
+CMD-swtnode1-SWTOF-NAME = Switch Off
+
+# mynodetype2
+ND-tuyaswitch2-NAME = Tuya Switch Node 2
+ND-tuyaswitch2-ICON = Output
+ST-swtnode2-ST-NAME = Node Status
+ST-swtnode2-GV2-NAME = Switch Status
+CMD-swtnode2-SWTON-NAME = Switch On
+CMD-swtnode2-SWTOF-NAME = Switch Off
+
+# mynodetype3
+ND-tuyalight1-NAME = Tuya Light Node 1
+ND-tuyalight1-ICON = Output
+ST-lgtnode1-ST-NAME = Node Status
+ST-lgtnode1-GV2-NAME = Light Status
+ST-lgtnode1-GV3-NAME = Light Level
+ST-lgtnode1-GV4-NAME = Light Mode Command
+ST-lgtnode1-GV5-NAME = Light Color Command
+#ST-lgtnode1-GV5-NAME = Light Colour
+#ST-lgtnode1-GV6-NAME = Light Scene
+#ST-lgtnode1-GV7-NAME = Light Music
+#ST-lgtnode1-GV8-NAME = Light White
+
+CMD-lgtnode1-LGTON-NAME = Light On
+CMD-lgtnode1-LGTOF-NAME = Light Off
+CMD-lgtnode1-LGTCFLIP-NAME = Light Flip
+CMD-lgtnode1-STLVL-NAME = Set Level
+CMD-lgtnode1-MODE-NAME = Set Mode
+CMD-lgtnode1-COLOR-NAME = Set Color
+
+# mynodetype4
+ND-tuyalight2-NAME = Tuya Light Node 1
+ND-tuyalight2-ICON = Output
+ST-lgtnode2-ST-NAME = Node Status
+ST-lgtnode2-GV2-NAME = Light Status
+ST-lgtnode2-GV3-NAME = Light Level
+ST-lgtnode2-GV4-NAME = Light Mode Command
+ST-lgtnode2-GV5-NAME = Light Color Command
+
+CMD-lgtnode2-LGTON-NAME = Light On
+CMD-lgtnode2-LGTOF-NAME = Light Off
+CMD-lgtnode2-LGTCFLIP-NAME = Light Flip
+CMD-lgtnode2-STLVL-NAME = Set Level
+CMD-lgtnode2-MODE-NAME = Set Mode
+CMD-lgtnode2-COLOR-NAME = Set Color
+
+
+# Debug/Logger Modes
+CDM-9 = Debug + Modules
+CDM-10 = Debug
+CDM-20 = Info
+CDM-30 = Warning
+CDM-40 = Error
+CDM-50 = Critical
+
+# LED Modes
+MODE-0 = Colour
+MODE-1 = Scene
+MODE-2 = Music
+MODE-3 = White
+
+# LED Colors
+COLOR-0 = Red
+COLOR-1 = Orange
+COLOR-2 = Yellow
+COLOR-3 = Green
+COLOR-4 = Blue
+COLOR-5 = Indigo
+COLOR-6 = Violet
+COLOR-7 = White
