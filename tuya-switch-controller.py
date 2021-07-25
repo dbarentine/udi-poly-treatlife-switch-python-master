@@ -97,7 +97,7 @@ class Controller(polyinterface.Controller):
             except:
                 LOGGER.debug("Failed to get valid JSON response")
 
-        #return(response_dict)
+        return(response_dict)
         
     
         
