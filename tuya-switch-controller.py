@@ -109,7 +109,12 @@ class Controller(polyinterface.Controller):
         config['apiDeviceID'] = 'default_apiDeviceId'  #'017743508caab5f0973e'
         needconfigs = True
         SLIPNAPSHOTFILE = 'slipnapshot.json'
+        LOGGER.info('')
+        LOGGER.info('TreatLife Device Discovery')  
+        LOGGER.info('') 
+        LOGGER.info('Authentication' + ' [%s]' % (tinytuya.version))
 
+        
         if(config['apiKey'] != '' and config['apiSecret'] != '' and
             config['apiRegion'] != '' and config['apiDeviceID'] != ''):
             needconfigs = False
