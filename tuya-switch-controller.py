@@ -247,7 +247,7 @@ class Controller(polyinterface.Controller):
 ##### LOOP here and addNode,  add nodes as lights and switches?????????
 
     def discover(self,*args, **kwargs):
-        self.tuyaPlatform(self)
+        self.tuyaPlatform(self, 'apiKey', 'apiSecret', 'uri')
 
         
         
