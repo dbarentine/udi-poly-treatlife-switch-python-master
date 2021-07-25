@@ -108,6 +108,7 @@ class Controller(polyinterface.Controller):
         config['apiRegion'] = 'us'
         config['apiDeviceID'] = 'default_apiDeviceId'  #'017743508caab5f0973e'
         needconfigs = True
+        SLIPNAPSHOTFILE = 'slipnapshot.json'
 
         if(config['apiKey'] != '' and config['apiSecret'] != '' and
             config['apiRegion'] != '' and config['apiDeviceID'] != ''):
@@ -233,7 +234,9 @@ class Controller(polyinterface.Controller):
     
         # Save polling data snapsot
         current = {'timestamp' : time.time(), 'devices' : polling}
-        output = json.dumps(current, indent=4) 
+        output = json.dumps(current, indent=4)
+        with open(SLIPNAPSHOTFILE, "w") as outfile:
+            outfile.write(output) 
         SWITCHID = i['id']
         SWITCHIP = item["ip"] 
         SWITCHKEY = item["key"] 
