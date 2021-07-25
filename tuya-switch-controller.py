@@ -250,7 +250,11 @@ class Controller(polyinterface.Controller):
 ##### LOOP here and addNode,  add nodes as lights and switches?????????
 
     def discover(self,*args, **kwargs):
-        self.wizard(self)
+        try:
+            self.wizard()
+            #except KeyboardInterrupt:
+            pass
+        #self.wizard(self)
 
         
         
