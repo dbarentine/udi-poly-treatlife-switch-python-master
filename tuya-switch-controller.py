@@ -101,7 +101,7 @@ class Controller(polyinterface.Controller):
         
     
         
-    def wizard(self, command, color=True):
+    def wizard(self, color=True  ):
         config = {}
         config['apiKey'] = 'default_apiKey'  #'txejpdfda9iwmn5cg2es'
         config['apiSecret'] = 'default_apiSecret'   #'46d6072ffd724e0ba5ebeb5cc6b9dce9'
@@ -126,7 +126,7 @@ class Controller(polyinterface.Controller):
 
         # Get Oauth Token from tuyaPlatform
         uri = 'token?grant_type=1'
-        response_dict = tuyaPlatform(REGION, KEY, SECRET,uri)
+        response_dict = tuyaPlatform(REGION, KEY, SECRET, uri)
         token = response_dict['result']['access_token']
 
         # Get UID from sample Device ID 
