@@ -246,7 +246,10 @@ class Controller(polyinterface.Controller):
 ########################## Need to send out  DEVICEID, DEVICEIP, DEVICEKEY for each node type Switch or Light found              
 ##### LOOP here and addNode,  add nodes as lights and switches?????????
 
-    def discover(self,*args, **kwargs):    
+    def discover(self,*args, **kwargs):
+        self.tuyaPlatform(self)
+
+        
         
         if "id" is not None:
             self.addNode(SwitchNodes1(self, self.address, 'tuyaswitch1', 'TreatLife-1')) # need to send DEVICEID, DEVICEIP, DEVICEKEY 
@@ -257,7 +260,7 @@ class Controller(polyinterface.Controller):
         if "id" is not None: 
             self.addNode(LightNodes2(self, self.address, 'tuyalight2', 'TreatLifeLamp-2'))    
         if "id" is not None:
-            self.addNode(SwitchNodes3(self, self.address, 'item["name"]', 'TreatLife-3'))
+            self.addNode(SwitchNodes3(self, self.address, 'tuyalight3', 'TreatLife-3'))
                                     #item["name"],
                                     #item["id"],
                                     #item["ip"],
