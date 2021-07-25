@@ -101,7 +101,7 @@ class Controller(polyinterface.Controller):
         
     
         
-    #def wizard(self, command, color=True):
+    def wizard(self, command, color=True):
         config = {}
         config['apiKey'] = 'default_apiKey'  #'txejpdfda9iwmn5cg2es'
         config['apiSecret'] = 'default_apiSecret'   #'46d6072ffd724e0ba5ebeb5cc6b9dce9'
@@ -250,7 +250,7 @@ class Controller(polyinterface.Controller):
 ##### LOOP here and addNode,  add nodes as lights and switches?????????
 
     def discover(self,*args, **kwargs):
-        #self.tuyaPlatform(self, 'apiKey', 'apiSecret', 'uri')
+        self.wizard(self)
 
         
         
