@@ -251,7 +251,7 @@ class Controller(polyinterface.Controller):
 
     def discover(self,*args, **kwargs):
         try:
-            self.wizard()
+            self.wizard(self)
             #except KeyboardInterrupt:
             pass
         #self.wizard(self)
