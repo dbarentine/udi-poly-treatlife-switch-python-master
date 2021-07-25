@@ -251,8 +251,8 @@ def wizard(color=True):
         json.dumps(output, indent=4, sort_keys=True)
         # Saves Device json to root
         ##print("Saving device snapshot data to " + SNAPSHOTFILE)
-        with open(SNAPSHOTFILE, "w") as outfile:
-            outfile.write(output)
+        #with open(SNAPSHOTFILE, "w") as outfile:
+        #    outfile.write(output)
         
         #print(json.dumps([[{'id' : polling}]]))
         #print(json.dumps({'ip' : polling}))
