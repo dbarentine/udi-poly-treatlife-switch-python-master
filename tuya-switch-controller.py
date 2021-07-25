@@ -44,7 +44,7 @@ class Controller(polyinterface.Controller):
         serverdata = self.poly.get_server_data()
         LOGGER.info('Started Tuya-Switch NodeServer {}'.format(serverdata['version']))
         self.check_params()
-        self.tuyaPlatform(self) #self.uri, 'apiKey', 'apiSecret', 'Controller') #, 'uri', 'apiKey', 'apiSecret'
+        #self.tuyaPlatform(self) #self.uri, 'apiKey', 'apiSecret', 'Controller') #, 'uri', 'apiKey', 'apiSecret'
         self.poly.add_custom_config_docs("<b>And this is some custom config data</b>")
 
     #class tuyaPlatform:
