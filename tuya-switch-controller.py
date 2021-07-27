@@ -100,7 +100,7 @@ class Controller(polyinterface.Controller):
         #return(response_dict)
         
     
-        
+    ## Wizard needs to run then each device found needs to be seperated as switch and light the added as each apropriate     
     #def wizard(self, command, color=True):
         config = {}
         config['apiKey'] = 'default_apiKey'  #'txejpdfda9iwmn5cg2es'
@@ -416,6 +416,8 @@ class Controller(polyinterface.Controller):
         {'driver': 'GV1', 'value': 10, 'uom': 25},
 
     ]
+
+################################################################### NEED TWO PORGRAMS ONE FOR SWITCH ONE FOR LED LIGHTS #########################################################################
 ####### Need to be able to add nodes automatacally incrementing up their Class id's????   
 ####### Switch Node Manually input ID, IP & KEY as DEVICEID, DEVICEIP, DEVICEKEY This Needs to be passed from Controller to each node added, Switch or Light???? 
 ####### Now this is ugly but the only way i could get it to cycle Nodes
