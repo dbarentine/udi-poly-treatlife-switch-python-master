@@ -251,8 +251,8 @@ def wizard(color=True):
         json.dumps(output, indent=4, sort_keys=True)
         # Saves Device json to root
         ##print("Saving device snapshot data to " + SNAPSHOTFILE)
-        with open(SNAPSHOTFILE, "w") as outfile:
-            outfile.write(output)
+        #with open(SNAPSHOTFILE, "w") as outfile:
+        #    outfile.write(output)
         
         #print(json.dumps([[{'id' : polling}]]))
         #print(json.dumps({'ip' : polling}))
@@ -260,14 +260,14 @@ def wizard(color=True):
         
         
         # Prints full list
-        #print("%-35.35s %-24s %-16s %-17s"  % (
-        #    item["name"], 
-        #    item["id"],
-        #    item['ip'],
-        #    item["key"]
-        #    ))
-        #print('\nCurrent Status of', 'devices', item["name"])  # print('\nCurrent Status of', 'devices', item["name"], 'Light: %r' % data)
-        #print("\n", current)
+        print("%-35.35s %-24s %-16s %-17s"  % (
+            item["name"], 
+            item["id"],
+            item['ip'],
+            item["key"]
+            ))
+        print('\nCurrent Status of', 'devices', item["name"])  # print('\nCurrent Status of', 'devices', item["name"], 'Light: %r' % data)
+        print("\n", current)
         #print("\nHello ", item["name"], name['Under Cabinets']) 
         
         
