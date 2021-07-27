@@ -1,6 +1,7 @@
 AWSIoTPythonSDK==1.4.9
-certifi==2020.12.5
+certifi==2021.5.30
 chardet==4.0.0
+charset-normalizer==2.0.3
 idna==2.10
 markdown2==2.4.0
 netifaces==0.10.9
@@ -9,6 +10,6 @@ pgc-interface==1.1.9
 polyinterface==2.1.0
 pycryptodome==3.10.1
 python-dotenv==0.15.0
-requests==2.25.1
+requests==2.26.0
 tinytuya==1.2.1
-urllib3==1.26.4
+urllib3==1.26.6
