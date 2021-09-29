@@ -447,7 +447,7 @@ class SwitchNodes1(polyinterface.Node):
         # TODO: Need a variable for the client library (if required for auth) being used to query this device
         # TODO: Should be class level variables self.name
         DEVICEID = "017743508caab5f0973e" # TODO: There should be no defaults here. These need to be set from the parameters in __init__
-        DEVICEIP = "192.168.1.147"
+        DEVICEIP = "192.168.1.145"
         DEVICEKEY = "e779c96c964f71b2"
         DEVICEVERS = "us"
         #self.SWITCHID = SWITCHID
@@ -462,7 +462,7 @@ class SwitchNodes1(polyinterface.Node):
     def setSwOn(self, command):        
         # TODO: Again use class level variables
         DEVICEID = "017743508caab5f0973e" #"DEVICEID"
-        DEVICEIP = "192.168.1.147" #"DEVICEIP"
+        DEVICEIP = "192.168.1.145" #"DEVICEIP"
         DEVICEKEY =  "e779c96c964f71b2" #"DEVICEKEY"
         DEVICEVERS = "us"
         # Check for environmental variables and always use those if available
@@ -493,7 +493,7 @@ class SwitchNodes1(polyinterface.Node):
     def setSwOff(self, command):
         #TODO: See above
         DEVICEID = "017743508caab5f0973e"
-        DEVICEIP = "192.168.1.147"
+        DEVICEIP = "192.168.1.145"
         DEVICEKEY = "e779c96c964f71b2"
         DEVICEVERS = "us"
         # Check for environmental variables and always use those if available
@@ -552,7 +552,7 @@ class SwitchNodes2(polyinterface.Node):
         
     def setSwOn(self, command):
         DEVICEID = "017743508caab5f385a7"
-        DEVICEIP =  "192.168.1.148"
+        DEVICEIP =  "192.168.1.155"
         DEVICEKEY = "7b8f2415ac96dfea"
         DEVICEVERS = "us"
         d=tinytuya.OutletDevice(DEVICEID, DEVICEIP, DEVICEKEY)
@@ -578,7 +578,7 @@ class SwitchNodes2(polyinterface.Node):
                 
     def setSwOff(self, command):
         DEVICEID = "017743508caab5f385a7"
-        DEVICEIP = "192.168.1.148"
+        DEVICEIP = "192.168.1.155"
         DEVICEKEY = "7b8f2415ac96dfea"
         DEVICEVERS = "us"
         # Check for environmental variables and always use those if available
@@ -627,7 +627,7 @@ class SwitchNodes3(polyinterface.Node):
         
     def setSwOn(self, command):
         DEVICEID = "017743508caab5f385a7"
-        DEVICEIP =  "192.168.1.148"
+        DEVICEIP =  "192.168.1.155"
         DEVICEKEY = "7b8f2415ac96dfea"
         DEVICEVERS = "us"
         d=tinytuya.OutletDevice(DEVICEID, DEVICEIP, DEVICEKEY)
@@ -653,7 +653,7 @@ class SwitchNodes3(polyinterface.Node):
                 
     def setSwOff(self, command):
         DEVICEID = "017743508caab5f385a7"
-        DEVICEIP = "192.168.1.148"
+        DEVICEIP = "192.168.1.155"
         DEVICEKEY = "7b8f2415ac96dfea"
         DEVICEVERS = "us"
         # Check for environmental variables and always use those if available
@@ -707,7 +707,7 @@ class LightNodes1(polyinterface.Node):
         #LOGGER.info(ip)
     def setSwOn(self, command):
         DEVICEID = "ebfc16d57ed374932cjqfk"   
-        DEVICEIP = "192.168.1.150"    
+        DEVICEIP = "192.168.1.147"    
         DEVICEKEY = "805217605357161b"
         DEVICEVERS = "us"
         # Check for environmental variables and always use those if available
@@ -732,7 +732,7 @@ class LightNodes1(polyinterface.Node):
                 
     def setSwOff(self, command):
         DEVICEID = "ebfc16d57ed374932cjqfk"   
-        DEVICEIP = "192.168.1.150"    
+        DEVICEIP = "192.168.1.147"    
         DEVICEKEY = "805217605357161b"
         DEVICEVERS = "us"
         # Check for environmental variables and always use those if available
@@ -757,7 +757,7 @@ class LightNodes1(polyinterface.Node):
 
     def setclrflip(self, command):
         DEVICEID = "ebfc16d57ed374932cjqfk"   
-        DEVICEIP = "192.168.1.150"    
+        DEVICEIP = "192.168.1.147"    
         DEVICEKEY = "805217605357161b"
         DEVICEVERS = "us"
         # Check for environmental variables and always use those if available
@@ -850,7 +850,7 @@ class LightNodes1(polyinterface.Node):
     # Set Color
     def colorOn(self, command):
         DEVICEID = "ebfc16d57ed374932cjqfk"   
-        DEVICEIP = "192.168.1.150"    
+        DEVICEIP = "192.168.1.147"    
         DEVICEKEY = "805217605357161b"
         DEVICEVERS = "us"
         # Check for environmental variables and always use those if available
@@ -899,7 +899,7 @@ class LightNodes1(polyinterface.Node):
     # Set Modes
     def modeOn(self, command):
         DEVICEID = "ebfc16d57ed374932cjqfk"   
-        DEVICEIP = "192.168.1.150"    
+        DEVICEIP = "192.168.1.147"    
         DEVICEKEY = "805217605357161b"
         DEVICEVERS = "us"
         # Check for environmental variables and always use those if available
@@ -937,7 +937,7 @@ class LightNodes1(polyinterface.Node):
     # Led Level
     def setDim(self, command):
         DEVICEID = "ebfc16d57ed374932cjqfk"   
-        DEVICEIP = "192.168.1.150"    
+        DEVICEIP = "192.168.1.147"    
         DEVICEKEY = "805217605357161b"
         DEVICEVERS = "us"
         # Check for environmental variables and always use those if available
@@ -1007,7 +1007,7 @@ class LightNodes2(polyinterface.Node):
 
     def setSwOn(self, command):
         DEVICEID = "ebfd4f4263bb769d99zjkq"   
-        DEVICEIP = "192.168.1.149"    
+        DEVICEIP = "192.168.1.146"    
         DEVICEKEY = "ec0b2b581a246eab"
         DEVICEVERS = "us"
         # Check for environmental variables and always use those if available
@@ -1032,7 +1032,7 @@ class LightNodes2(polyinterface.Node):
                 
     def setSwOff(self, command):
         DEVICEID = "ebfd4f4263bb769d99zjkq"   
-        DEVICEIP = "192.168.1.149"    
+        DEVICEIP = "192.168.1.146"    
         DEVICEKEY = "ec0b2b581a246eab"
         DEVICEVERS = "us"
         # Check for environmental variables and always use those if available
@@ -1057,7 +1057,7 @@ class LightNodes2(polyinterface.Node):
 
     def setclrflip(self, command):
         DEVICEID = "ebfd4f4263bb769d99zjkq"   
-        DEVICEIP = "192.168.1.149"    
+        DEVICEIP = "192.168.1.146"    
         DEVICEKEY = "ec0b2b581a246eab"
         DEVICEVERS = "us"
         # Check for environmental variables and always use those if available
@@ -1151,7 +1151,7 @@ class LightNodes2(polyinterface.Node):
     # Set Color
     def colorOn(self, command):
         DEVICEID = "ebfd4f4263bb769d99zjkq"   
-        DEVICEIP = "192.168.1.149"    
+        DEVICEIP = "192.168.1.146"    
         DEVICEKEY = "ec0b2b581a246eab"
         DEVICEVERS = "us"
         # Check for environmental variables and always use those if available
@@ -1200,7 +1200,7 @@ class LightNodes2(polyinterface.Node):
     # Set Modes
     def modeOn(self, command):
         DEVICEID = "ebfd4f4263bb769d99zjkq"   
-        DEVICEIP = "192.168.1.149"    
+        DEVICEIP = "192.168.1.146"    
         DEVICEKEY = "ec0b2b581a246eab"
         DEVICEVERS = "us"
         # Check for environmental variables and always use those if available
@@ -1237,7 +1237,7 @@ class LightNodes2(polyinterface.Node):
     # Led Level
     def setDim(self, command):
         DEVICEID = "ebfd4f4263bb769d99zjkq"   
-        DEVICEIP = "192.168.1.149"    
+        DEVICEIP = "192.168.1.146"    
         DEVICEKEY = "ec0b2b581a246eab"
         DEVICEVERS = "us"
         # Check for environmental variables and always use those if available
