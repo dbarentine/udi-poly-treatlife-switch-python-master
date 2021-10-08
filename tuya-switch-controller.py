@@ -268,14 +268,7 @@ class Controller(polyinterface.Controller):
             self.addNode(LightNodes1(self, self.address, 'tuyalight1', 'TreatLifeLamp-1'))
         if "id" is not None: 
             self.addNode(LightNodes2(self, self.address, 'tuyalight2', 'TreatLifeLamp-2'))    
-        if "id" is not None:
-            self.addNode(SwitchNodes3(self, self.address, 'tuyaswitch3', 'TreatLife-3'))
-                                    #item["name"],
-                                    #item["id"],
-                                    #item["ip"],
-                                    #item["key"],
-                                    #item["ver"])) 
-
+        
     def delete(self):
         LOGGER.info('Removing Tuya Switch.')
 
